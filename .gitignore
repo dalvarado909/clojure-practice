@@ -1,12 +1,51 @@
-/target
-/classes
-/checkouts
-profiles.clj
-pom.xml
-pom.xml.asc
-*.jar
+# Compiled files
 *.class
-/.lein-*
-/.nrepl-port
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.gz
+target/
+out/
+build/
+
+# Dependency caches
+.m2/
+.boot/
+.lein-plugins/
+.cpcache/
+deps/
+node_modules/ # If using ClojureScript with Node.js dependencies
+
+# Editor-specific files
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*~
+.#*
+#*#
+
+# Leiningen files
+.lein-repl-history
+project.clj.bak
+profiles.clj.bak
+
+# Boot files
+boot.properties
+
+# Clojure CLI files
+.clj-kondo/
+.lsp/
+
+# Log files
+*.log
+
+# Environment variables and secrets
+.env
+.local/
+secrets/
+.calva/output-window/output.calva-repl
 .hgignore
-.hg/
+.nrepl-port
